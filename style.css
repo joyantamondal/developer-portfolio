@@ -33,6 +33,12 @@ h2{
     padding: 10px 40px;
     border-radius: 5px;
 }
+.link-button:hover{
+    color:yellow;
+    
+    border-radius:5px ;
+    box-shadow: 0px 10px 30px orange;
+}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -71,6 +77,7 @@ h2{
     border-image: linear-gradient(maroon, red);
     border-image-slice: 1;
 }
+
 footer p{
     text-align: center;
 }
