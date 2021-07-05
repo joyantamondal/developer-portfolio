@@ -1,0 +1,80 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+.banner-section {
+  align-items: center;
+  background-image: url(../images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.container-flex {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.name-color {
+  color: #ffa500;
+}
+.banner-inner-div h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.banner-inner-div h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner-inner-div {
+  width: 50%;
+  padding: 30px;
+}
+.banner-inner-div img {
+  width: 100%;
+}
+.banner-inner-div p {
+  text-align: justify;
+}
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px rgb(102, 9, 9);
+  font-size: 20px;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-image: linear-gradient(black, red);
+}
+.drem-big {
+  background-image: url(../images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.drem-big p {
+  margin-right: 100px;
+}
+.orange-color {
+  color: #ffa500;
+}
+.exp-sec-box {
+  box-shadow: 5px 5px 40px #fa0707;
+
+  /* background-color:#7a010183; */
+  margin: 40px;
+  border-radius: 10px;
+}
+.box-slice-left {
+  border-left: 10px solid;
+  border-image: linear-gradient(#fb6a58, #101e82);
+  border-image-slice: 1;
+}
+.box-slice-right {
+  border-left: 10px solid;
+  border-image: linear-gradient(#07ad15, #ff8e00);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+}
